@@ -6,11 +6,11 @@ import React from 'react'
 export default function Providers({ children }) {
   return (
     <div>
-      <ConfigProvider theme={theme}>
-        <StyledComponentsRegistry>
-          {children}
-        </StyledComponentsRegistry>
-      </ConfigProvider>
+      {/* <ConfigProvider theme={theme}> */}
+      <StyledComponentsRegistry>
+        {children}
+      </StyledComponentsRegistry>
+      {/* </ConfigProvider> */}
     </div>
   )
 }
