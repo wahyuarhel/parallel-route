@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <Link href={'/about'}><p>About</p></Link>
       </div>
       <div className='w-full h-screen overflow-auto'>
-        <div className='p-3 sticky top-0 bg-white border-b-2'>Page Header</div>
+        <div className='p-3 sticky top-0 bg-white border-b-2 z-10'>Page Header</div>
         <div>
           {children}
         </div>
